@@ -1,0 +1,38 @@
+Executed: 2026-10-13 11:26 UTC with Python 3.12.3
+Command: python3 -m unittest -v test_herd_health_tracker
+
+test_01_add_valid_first_record (test_herd_health_tracker.TestAddAndDisplay.test_01_add_valid_first_record) ... ok
+test_02_second_record_same_animal (test_herd_health_tracker.TestAddAndDisplay.test_02_second_record_same_animal) ... ok
+test_03_display_all_records (test_herd_health_tracker.TestAddAndDisplay.test_03_display_all_records) ... ok
+test_04_history_shows_all_records_oldest_first (test_herd_health_tracker.TestAddAndDisplay.test_04_history_shows_all_records_oldest_first) ... ok
+test_05_latest_status (test_herd_health_tracker.TestAddAndDisplay.test_05_latest_status) ... ok
+test_06_older_record_after_newer_record (test_herd_health_tracker.TestAddAndDisplay.test_06_older_record_after_newer_record) ... ok
+test_06b_out_of_order_message_via_menu_function (test_herd_health_tracker.TestAddAndDisplay.test_06b_out_of_order_message_via_menu_function) ... ok
+test_19_menu_and_clean_exit (test_herd_health_tracker.TestMenu.test_19_menu_and_clean_exit) ... ok
+test_19b_full_session_with_demo_data (test_herd_health_tracker.TestMenu.test_19b_full_session_with_demo_data) ... ok
+test_19c_add_through_menu (test_herd_health_tracker.TestMenu.test_19c_add_through_menu) ... ok
+test_19e_eof_exits_cleanly (test_herd_health_tracker.TestMenu.test_19e_eof_exits_cleanly) ... ok
+test_15_instance_method (test_herd_health_tracker.TestMethods.test_15_instance_method) ... ok
+test_16_class_method (test_herd_health_tracker.TestMethods.test_16_class_method) ... ok
+test_17_static_method (test_herd_health_tracker.TestMethods.test_17_static_method) ... ok
+test_record_holds_animal_object_not_a_string (test_herd_health_tracker.TestMethods.test_record_holds_animal_object_not_a_string) ... ok
+test_13_same_animal_object_reused (test_herd_health_tracker.TestObjectsAndStorage.test_13_same_animal_object_reused) ... ok
+test_14_historical_status_preserved (test_herd_health_tracker.TestObjectsAndStorage.test_14_historical_status_preserved) ... ok
+test_18_duplicate_animal_ids (test_herd_health_tracker.TestObjectsAndStorage.test_18_duplicate_animal_ids) ... ok
+test_20_one_primary_list_only (test_herd_health_tracker.TestObjectsAndStorage.test_20_one_primary_list_only) ... ok
+test_latest_status_screen_shows_record_count (test_herd_health_tracker.TestTupleSummary.test_latest_status_screen_shows_record_count) ... ok
+test_summary_is_read_only_and_creates_no_storage (test_herd_health_tracker.TestTupleSummary.test_summary_is_read_only_and_creates_no_storage) ... ok
+test_summary_tuple_values (test_herd_health_tracker.TestTupleSummary.test_summary_tuple_values) ... ok
+test_summary_unknown_animal_and_empty_list (test_herd_health_tracker.TestTupleSummary.test_summary_unknown_animal_and_empty_list) ... ok
+test_07_negative_age_rejected (test_herd_health_tracker.TestValidation.test_07_negative_age_rejected) ... ok
+test_08_non_numeric_age_rejected (test_herd_health_tracker.TestValidation.test_08_non_numeric_age_rejected) ... ok
+test_09_invalid_date_rejected (test_herd_health_tracker.TestValidation.test_09_invalid_date_rejected) ... ok
+test_10_unsupported_status_rejected (test_herd_health_tracker.TestValidation.test_10_unsupported_status_rejected) ... ok
+test_11_unknown_animal_id (test_herd_health_tracker.TestValidation.test_11_unknown_animal_id) ... ok
+test_12_empty_record_list (test_herd_health_tracker.TestValidation.test_12_empty_record_list) ... ok
+test_empty_required_fields_rejected (test_herd_health_tracker.TestValidation.test_empty_required_fields_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.012s
+
+OK

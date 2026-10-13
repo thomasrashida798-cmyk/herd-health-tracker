@@ -1,0 +1,52 @@
+Herd Health Tracker
+Records what you observe. It does not diagnose disease or replace a veterinarian.
+Records are kept in memory only and disappear when you exit.
+Load 3 fictional demonstration records? (y/n): n
+
+===== HERD HEALTH TRACKER =====
+1. Add a health record
+2. Display all health records
+3. View an animal's health history
+4. View an animal's latest recorded status
+5. Exit
+Enter your choice (1-5): 2
+
+No health records have been added yet. Choose option 1 to add one.
+
+===== HERD HEALTH TRACKER =====
+1. Add a health record
+2. Display all health records
+3. View an animal's health history
+4. View an animal's latest recorded status
+5. Exit
+Enter your choice (1-5): 3
+
+No health records have been added yet. Choose option 1 to add one.
+
+===== HERD HEALTH TRACKER =====
+1. Add a health record
+2. Display all health records
+3. View an animal's health history
+4. View an animal's latest recorded status
+5. Exit
+Enter your choice (1-5): 4
+
+No health records have been added yet. Choose option 1 to add one.
+
+===== HERD HEALTH TRACKER =====
+1. Add a health record
+2. Display all health records
+3. View an animal's health history
+4. View an animal's latest recorded status
+5. Exit
+Enter your choice (1-5): 7
+Invalid choice. Please type a number from 1 to 5.
+
+===== HERD HEALTH TRACKER =====
+1. Add a health record
+2. Display all health records
+3. View an animal's health history
+4. View an animal's latest recorded status
+5. Exit
+Enter your choice (1-5): 5
+Goodbye. All records are cleared from memory when the program closes.

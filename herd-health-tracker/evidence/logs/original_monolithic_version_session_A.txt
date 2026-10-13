@@ -1,0 +1,191 @@
+Herd Health Tracker
+Records what you observe. It does not diagnose disease or replace a veterinarian.
+Records are kept in memory only and disappear when you exit.
+Load 3 fictional demonstration records? (y/n): y
+Fictional demonstration records loaded.
+
+===== HERD HEALTH TRACKER =====
+1. Add a health record
+2. Display all health records
+3. View an animal's health history
+4. View an animal's latest recorded status
+5. Exit
+Enter your choice (1-5): 1
+
+--- Add a health record ---
+Animal ID (for example AN-001): an-003
+Species (for example Goat): 
+Species cannot be empty. Please try again.
+Species (for example Goat): Cattle
+Breed (type Unknown if not known): Zebu
+Age in months (whole number, for example 24): -5
+Invalid age. Please enter a whole number of months from 0 to 1200, such as 24.
+Age in months (whole number, for example 24): abc
+Invalid age. Please enter a whole number of months from 0 to 1200, such as 24.
+Age in months (whole number, for example 24): 30
+Date checked (YYYY-MM-DD, for example 2026-10-01): 2026-02-30
+Invalid date. Use the format YYYY-MM-DD and a real calendar date.
+Date checked (YYYY-MM-DD, for example 2026-10-01): 2026-10-05
+Observed signs (describe what you saw): Limping on rear leg
+Health status options:
+  1. Healthy
+  2. Needs Monitoring
+  3. Veterinary Attention Required
+Enter 1, 2 or 3, or type the status name: Sick
+Unsupported status. Please choose one of the three options listed.
+Enter 1, 2 or 3, or type the status name: 2
+Notes (type None if there are no notes): None
+Record HR-004 saved for animal AN-003.
+The current recorded status of AN-003 is now: Needs Monitoring
+
+===== HERD HEALTH TRACKER =====
+1. Add a health record
+2. Display all health records
+3. View an animal's health history
+4. View an animal's latest recorded status
+5. Exit
+Enter your choice (1-5): 1
+
+--- Add a health record ---
+Animal ID (for example AN-001): AN-001
+Animal AN-001 is already registered (Goat). A new health record will be added for this animal.
+Date checked (YYYY-MM-DD, for example 2026-10-01): 2026-09-28
+Observed signs (describe what you saw): Earlier check, normal
+Health status options:
+  1. Healthy
+  2. Needs Monitoring
+  3. Veterinary Attention Required
+Enter 1, 2 or 3, or type the status name: 1
+Notes (type None if there are no notes): None
+Record HR-005 saved for animal AN-001.
+This record is not newer than the latest record (2026-10-04), so the current status stays: Veterinary Attention Required
+
+===== HERD HEALTH TRACKER =====
+1. Add a health record
+2. Display all health records
+3. View an animal's health history
+4. View an animal's latest recorded status
+5. Exit
+Enter your choice (1-5): 2
+
+--- All health records (in the order entered) ---
+Record ID      : HR-001
+Animal ID      : AN-001
+Species        : Goat
+Date checked   : 2026-10-01
+Observed signs : No abnormal signs reported
+Health status  : Healthy
+Notes          : Fictional demonstration record
+----------------------------------------
+Record ID      : HR-002
+Animal ID      : AN-002
+Species        : Sheep
+Date checked   : 2026-10-02
+Observed signs : Reduced appetite reported
+Health status  : Needs Monitoring
+Notes          : Fictional demonstration record
+----------------------------------------
+Record ID      : HR-003
+Animal ID      : AN-001
+Species        : Goat
+Date checked   : 2026-10-04
+Observed signs : Follow-up observation recorded
+Health status  : Veterinary Attention Required
+Notes          : Fictional demonstration record
+----------------------------------------
+Record ID      : HR-004
+Animal ID      : AN-003
+Species        : Cattle
+Date checked   : 2026-10-05
+Observed signs : Limping on rear leg
+Health status  : Needs Monitoring
+Notes          : None
+----------------------------------------
+Record ID      : HR-005
+Animal ID      : AN-001
+Species        : Goat
+Date checked   : 2026-09-28
+Observed signs : Earlier check, normal
+Health status  : Healthy
+Notes          : None
+----------------------------------------
+Total health records created this session: 5
+
+===== HERD HEALTH TRACKER =====
+1. Add a health record
+2. Display all health records
+3. View an animal's health history
+4. View an animal's latest recorded status
+5. Exit
+Enter your choice (1-5): 3
+Enter the animal ID (for example AN-001): AN-001
+
+--- Health history for AN-001 (oldest date first) ---
+Species: Goat | Breed: West African Dwarf | Age when first recorded: 24 months
+----------------------------------------
+Record ID      : HR-005
+Animal ID      : AN-001
+Species        : Goat
+Date checked   : 2026-09-28
+Observed signs : Earlier check, normal
+Health status  : Healthy
+Notes          : None
+----------------------------------------
+Record ID      : HR-001
+Animal ID      : AN-001
+Species        : Goat
+Date checked   : 2026-10-01
+Observed signs : No abnormal signs reported
+Health status  : Healthy
+Notes          : Fictional demonstration record
+----------------------------------------
+Record ID      : HR-003
+Animal ID      : AN-001
+Species        : Goat
+Date checked   : 2026-10-04
+Observed signs : Follow-up observation recorded
+Health status  : Veterinary Attention Required
+Notes          : Fictional demonstration record
+----------------------------------------
+Number of records: 3
+
+===== HERD HEALTH TRACKER =====
+1. Add a health record
+2. Display all health records
+3. View an animal's health history
+4. View an animal's latest recorded status
+5. Exit
+Enter your choice (1-5): 4
+Enter the animal ID (for example AN-001): AN-001
+
+Latest recorded status for AN-001: Veterinary Attention Required
+Based on the record dated: 2026-10-04
+Records on file for this animal: 3
+
+===== HERD HEALTH TRACKER =====
+1. Add a health record
+2. Display all health records
+3. View an animal's health history
+4. View an animal's latest recorded status
+5. Exit
+Enter your choice (1-5): 3
+Enter the animal ID (for example AN-001): AN-404
+No animal with ID AN-404 was found.
+
+===== HERD HEALTH TRACKER =====
+1. Add a health record
+2. Display all health records
+3. View an animal's health history
+4. View an animal's latest recorded status
+5. Exit
+Enter your choice (1-5): 9
+Invalid choice. Please type a number from 1 to 5.
+
+===== HERD HEALTH TRACKER =====
+1. Add a health record
+2. Display all health records
+3. View an animal's health history
+4. View an animal's latest recorded status
+5. Exit
+Enter your choice (1-5): 5
+Goodbye. All records are cleared from memory when the program closes.
