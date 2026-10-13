@@ -5,8 +5,7 @@ Limkokwing University of Creative Technology, Sierra Leone
 **Assignment:** Real-World Solutions under Digital Public Goods (DPG) Standards  
 **Domain:** Agriculture · **Approved option:** Livestock Health & Tracking System
 
-**Student:** [Student Name] · **Student ID:** [Student ID] · **Lecturer:** [Lecturer Name]  
-**GitHub repository:** [Add the published repository URL]
+**Student:** Rashida Thomas · **Student ID:** 905005877 · **Lecturer:** Mr Alusine Lavalie  
 
 > This is a beginner-level academic project. It is not a commercial livestock-management platform and has not been certified as a Digital Public Good. It records user-entered observations; it does not diagnose disease, prescribe treatment, or replace a veterinarian. All demonstration data is fictional.
 
